@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HRRN Scheduling Algorithm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Highest Response Ratio Next Scheduling Algorithm</h1>
+      <div>
+        <label for="numProcesses">Enter the number of Processes: </label>
+        <input type="number" id="numProcesses" />
+        <button onclick="getProcessDetails()">Submit</button>
+      </div>
+      <div id="processInputs">
+        <!-- Process details input fields -->
+      </div>
+      <button onclick="scheduleProcesses()">Schedule Processes</button>
+      <div id="output">
+        <!-- Process scheduling results -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
